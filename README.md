@@ -21,4 +21,7 @@ Elon Musk의 각 회사를 소개하는 카드가 웹사이트에 구성되어 �
   
 ### 웹사이트 [링크](https://geewhyu.github.io/ElonMusk-Homepage/)
   
- ![GeeWhyU의_사이트_-_Chrome_2023-05-29_21-39-39_AdobeExpress_AdobeExpress](https://github.com/GeeWhyU/ElonMusk-Homepage/assets/134857992/7d8e336e-a3b3-49c6-b816-58b297a5f3fb)
+<br/>
+  
+![D0190A05-5122-4A65-A20A-0E2543DFC280](https://github.com/GeeWhyU/ElonMusk-Homepage/assets/134857992/4cd3e95e-3262-4d4b-8a44-5a62bc9b3001)
+
