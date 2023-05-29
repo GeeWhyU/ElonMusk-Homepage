@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GeeWhyU의 사이트</title>
+    <link rel="stylesheet"
+        href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/easygpt/default.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <style>
+        .hero {
+            background-color: #f2f2f2;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            color: #555;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        /* 미디어 쿼리 사용해서 스마트폰 화면에서 카드 크기를 조정합니다. */
+        @media only screen and (max-width: 767px) {
+            .col-sm-6 {
+                padding: 10px;
+            }
+        }
+
+        .card {
+            height: auto;
+        }
+
+        /* 이미지를 가운데에 위치시킵니다. */
+        .card-img-top {
+            object-fit: contain;
+            height: 200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            transition: transform 0.2s ease-in-out;
+        }
+        
+        .card:hover {
+            transform: scale(1.05);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <section class="hero">
+        <h1>Elon Musk</h1>
+        <h2>의 회사들</h2>
+    </section>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <a href="https://www.tesla.com" target="_blank"><img
+                            src="https://www.logo.wine/a/logo/Tesla%2C_Inc./Tesla%2C_Inc.-Logo.wine.svg"
+                            class="card-img-top" alt="Tesla Logo"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Tesla, Inc. (테슬라)</h5>
+                        <p class="card-text">전기 자동차 및 지속 가능한 에는 자동차, 에너지 저장장치, 그리고 발전 및 저장 시스템을 개발,
+                            생산합니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <a href="https://www.spacex.com" target="_blank"><img
+                            src="https://www.logo.wine/a/logo/SpaceX/SpaceX-Logo.wine.svg" class="card-img-top"
+                            alt="SpaceX Logo"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">SpaceX (스페이스X)</h5>
+                        <p class="card-text">우주 항공 운송 서비스를 제공하고 우주 여행을 상업적으로 이용할 수 있게 만드는 것을 목표로 하는 회사입니다. 개인 우주 여행 및 화성
+                            정착 계획을 선도하고 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <a href="https://www.neuralink.com" target="_blank"><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Neuralink_logo.svg/587px-Neuralink_logo.svg.png?20190713070759"
+                            class="card-img-top" alt="Neuralink Logo"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Neuralink (뉴럴링크)</h5>
+                        <p class="card-text">뇌-컴퓨터 인터페이스 기술을 개발하여 인간의 뇌와 직접 연결되는 인공 지능을 만들려고 하는 회사입니다. 이를 통해 인간의 건강을
+                            개선하고 사고의 속도를 높일 것으로 기대되고 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <a href="https://www.boringcompany.com" target="_blank"><img
+                            src="https://www.logo.wine/a/logo/The_Boring_Company/The_Boring_Company-Logo.wine.svg"
+                            class="card-img-top" alt="The Boring Company Logo"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">The Boring Company (보링 컴퍼니)</h5>
+                        <p class="card-text">도심 교통 혼잡을 해결하기 위해 지하 터널을 개발하는 회사입니다. 저렴한 비용으로 빠르게 터널을 뚫는 기술을 개발하여 도시를 더
+                            효율적으로 교통 시스템을 구축하고자 합니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <a href="https://www.tesla.com/solar" target="_blank"><img
+                            src="https://www.logolynx.com/images/logolynx/59/592b90264a94e5d95596f67c9850ac41.png"
+                            class="card-img-top" alt="SolarCity Logo"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">SolarCity (솔라시티)</h5>
+                        <p class="card-text">태양열 발전과 에너지 저장 기술을 개발하는 회사로, 현재 테슬라의 일부로 통합되었습니다. 태양 전지 패널과 태양 열 시스템 등의 제품을
+                            생산하였습니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <a href="https://www.openai.com" target="_blank"><img
+                            src="https://www.svgrepo.com/show/306500/openai.svg" class="card-img-top"
+                            alt="OpenAI Logo"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">OpenAI (오픈AI)</h5>
+                        <p class="card-text">인공 지능 연구에 중점을 둔 회사로, 안전한 인공 지능 발전을 지원하며 혜택을 공유하는 것을 목표로 하고 있습니다. 이 회사는 공동
+                            창립자 중 한 명으로 일론 머스크가 있는 기업입니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <a href="https://www.twitter.com" target="_blank"><img
+                            src="https://www.logo.wine/a/logo/Twitter/Twitter-Logo.wine.svg" class="card-img-top"
+                            alt="Twitter Logo"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Twitter (트위터)</h5>
+                        <p class="card-text">트위터는 전세계 사용자들이 실시간으로 소통하며 다양한 정보를 공유하는 소셜 미디어 서비스입니다. 일론 머스크는 이 플랫폼을 활용해 회사
+                            소식과 의견을 전하곤 합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
