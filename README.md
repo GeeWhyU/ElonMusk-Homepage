@@ -17,10 +17,12 @@ Elon Musk의 각 회사를 소개하는 카드가 웹사이트에 구성되어 �
 
 <pre>
 <code>
-.card {transition: transform 0.2s ease-in-out;
+.card {
+    transition: transform 0.2s ease-in-out;
 }
 
-.card:hover {transform: scale(1.05);
+.card:hover {
+    transform: scale(1.05);
 }
 </code>
 </pre>
@@ -30,13 +32,13 @@ Elon Musk의 각 회사를 소개하는 카드가 웹사이트에 구성되어 �
 <pre>
 <code>
 @media only screen and (max-width: 767px) {
-.col-sm-6 {
-padding: 10px;
-}
+    .col-sm-6 {
+        padding: 10px;
+    }
 }
 
 .card {
-height: auto;
+    height: auto;
 }
 </code>
 </pre>
