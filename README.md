@@ -1,6 +1,7 @@
 ## ElonMusk-Homepage
 이 웹사이트는 스파르타 코딩 클럽의 <ChatGPT로 10분만에 웹사이트 만들기 강의>   
 를 참고하여 제작한 웹사이트입니다.
+
 ![0AC4D5A5-EEC7-470A-90A3-F1622958C856](https://github.com/GeeWhyU/ElonMusk-Homepage/assets/134857992/38d19400-c4d1-4767-a99c-36225c80ddea)
 
 ### 주요기능
